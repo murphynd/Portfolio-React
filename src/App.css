@@ -7,7 +7,7 @@
 
 .home,
 .about,
-.projects,
+.work,
 .contact {
   display: flex;
   height: 90vh;
@@ -17,7 +17,6 @@
 }
 
 .about {
-  /* background-image: ("/images/Screen Shot 2020-12-15 at 11.03.43 AM.png"); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,7 +24,7 @@
   font-size: 100px;
 }
 
-.projects {
+.work {
   /* background-image: ("/images/Screen Shot 2020-12-15 at 11.03.43 AM.png"); */
   background-position: center;
   background-size: fill;
