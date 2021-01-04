@@ -28,7 +28,7 @@ function Navbar() {
     <div className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-          Portfolio <i className="fas fa-air-freshener" />
+          Natalie Murphy
         </Link>
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />

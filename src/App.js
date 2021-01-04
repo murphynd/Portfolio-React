@@ -97,6 +97,21 @@ function App() {
               return null;
             }}
           />
+          <Route
+            path="/Capstone"
+            component={() => {
+              window.location.href = "https://thump.vercel.app/";
+              return null;
+            }}
+          />
+          <Route
+            path="/Cat"
+            component={() => {
+              window.location.href =
+                "https://please-walk-drruau5ec.vercel.app/";
+              return null;
+            }}
+          />
         </Switch>
       </Router>
     </>

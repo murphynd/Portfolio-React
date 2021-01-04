@@ -5,7 +5,7 @@ import "./Cards.css";
 function Cards() {
   return (
     <div className="cards">
-      <h1>check out all of my Tea!</h1>
+      <h1>New Work</h1>
       <div className="cards__contianer">
         <div className="cards__wrapper">
           <ul className="cards__items">
@@ -13,15 +13,15 @@ function Cards() {
             {/* you will need to duplicate the ul tag closure for good wrapping */}
             <CardItem
               src="images/den.png"
-              text="have a seat"
-              label="a cozy room"
-              path="/about"
+              text="Explore my latest work"
+              label="Student work from Epicodus"
+              path="/work"
             />
             <CardItem
-              src="images/tea.png"
-              text="here is some tea"
-              label="a hot cup"
-              path="/about"
+              src="images/thump.png"
+              text="Play with ThumP"
+              label="Make some sick beats!"
+              path="/capstone"
             />
           </ul>
         </div>

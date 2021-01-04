@@ -6,22 +6,22 @@ import "./HeroSection.css";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <h1>cozy vibes</h1>
-      <p>I think the tea is ready</p>
+      <h1>Hey, I am Natalie</h1>
+      <p>Web Developer</p>
       <div className="hero-btns">
         <Button
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn-large"
         >
-          grab a cup
+          Grab a cup
         </Button>
         <Button
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn-large"
         >
-          grab a cup
+          play with a cat
         </Button>
       </div>
     </div>

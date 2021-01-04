@@ -6,7 +6,7 @@ import "../../App.css";
 export default function Work() {
   return (
     <>
-      <h1 className="work">My Work</h1>;
+      <h1 className="work">My Work</h1>
       <Projects />
       <Footer />
     </>
